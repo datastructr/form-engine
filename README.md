@@ -28,7 +28,10 @@ npm i form-engine --save
 
 ## Usage
 
-Add additional notes about how to deploy 
+### Templates
+The point of the library is so that you can have an effiecent engine that is capable of rendering any 'template'. This is beneficial for any application that is composed of many many forms. It becomes tiresome and hecktic when trying to code each individual form. What this library offers instead, is the ability to create generic temaplates (JSON) that can be converted into dynamic forms. All the user needs to do is supply the forms. A suggestion for template managment on the backend will be created later but will most likely incorporate mongodb.
+
+[Example Template](https://github.com/datastructr/form-engine/blob/master/examples/template.js)
 
 
 ## Authors

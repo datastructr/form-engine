@@ -37,7 +37,7 @@
             "conditions": {
               // describe if a field should be filled out | Object | default:none
               // two keys, notif and if, basic conditional meaning | Array 
-              "not": [], // use keys for conditions rules (see below example)
+              "notif": [], // use keys for conditions rules (see below example)
               "if": []
             }
           },
